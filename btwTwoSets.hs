@@ -1,3 +1,5 @@
+-- Problem : https://www.hackerrank.com/challenges/between-two-sets/problem
+
 lcmList :: [Int] -> Int
 lcmList [] = 1
 lcmList (x:xs) = lcm x (lcmList xs)

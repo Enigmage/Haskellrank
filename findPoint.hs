@@ -1,3 +1,5 @@
+-- Problem : https://www.hackerrank.com/challenges/find-point/problem
+
 compute :: [Int] -> [(Int, Int)] 
 compute [] = []
 compute (px : py : qx : qy : xs) = [(rx, ry)] ++ compute(xs)
