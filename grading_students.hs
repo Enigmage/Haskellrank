@@ -6,4 +6,4 @@ roundGrades x   | x >= 38 && (m5 - x) < 3 = m5
                 where m5 = x + (5 - x `mod` 5)
 
 main :: IO()
-main = interact $ unlines . map show . map roundGrades . map read . tail . words
+main = interact $ unlines . map (show . roundGrades . read) . tail . words

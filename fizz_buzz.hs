@@ -1,5 +1,5 @@
 fizzbuzz :: [Int] -> [String]
-fizzbuzz xs = map convert xs
+fizzbuzz = map convert
     where
         convert x
           | mod x 15 == 0 = "FizzBuzz"
@@ -8,4 +8,4 @@ fizzbuzz xs = map convert xs
           | otherwise     = show x
 
 main :: IO()
-main = (putStrLn . unlines . fizzbuzz)[1..100] 
+main = (putStrLn . unlines . fizzbuzz)[1..100]
