@@ -1,4 +1,5 @@
 -- https://www.hackerrank.com/challenges/save-the-prisoner/problem
+{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 
 solve :: [Int] -> [Int]
 solve [] = []
