@@ -9,7 +9,3 @@ fizzbuzz = map convert
 
 main :: IO()
 main = (putStrLn . unlines . fizzbuzz)[1..100]
-
--- main :: IO()
--- main = do
---     putStrLn $ (unlines . fizzbuzz)[1..100]
