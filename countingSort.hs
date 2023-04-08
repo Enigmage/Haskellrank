@@ -4,7 +4,6 @@ import Data.List (sortBy)
 -- import qualified Data.Sequence as Seq
 
 type Pairs = (Int, String)
-
 -- dashify :: [Pairs] -> [Pairs]
 -- dashify = map (\x -> (fst x, "-"))
 
